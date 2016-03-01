@@ -44,6 +44,24 @@ This package is incomplete and only provides a code skeleton for
 continuing development.
 The details on the necessary components will be introduced in the course.
 
+For this project, please finish the following functions:
+In MNA_Matrix.c
+void Index_All_Nodes();
+void Create_MNA_Matrix();
+
+In Symbol_Table.c
+void Init_Symbol_Tables();
+void Delete_Node_Table();
+void Delete_Device_Table();
+void Delete_Node_Entry(const char *name);
+Node_Entry* Lookup_Node_Entry(const char *name);
+Device_Entry* Lookup_Device_Entry(const char *name);
+Node_Entry* Insert_Node_Entry(const char *name);
+Device_Entry* Insert_Device_Entry(const char *name,  const int numnodes, 
+                 Node_Entry **nodelist, const double value);
+void Print_Node_Table();
+void Print_Device_Table();
+
 For more information on this package, please consult TA or instructor.
 
 
