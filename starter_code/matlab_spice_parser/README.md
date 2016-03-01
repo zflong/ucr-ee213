@@ -46,10 +46,14 @@ The details on the necessary components will be introduced in the course.
 
 For this project, please finish the following functions:
 In MNA_Matrix.c
+
 void Index_All_Nodes();
 void Create_MNA_Matrix();
 
+
+
 In Symbol_Table.c
+
 void Init_Symbol_Tables();
 void Delete_Node_Table();
 void Delete_Device_Table();
